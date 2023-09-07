@@ -1,0 +1,170 @@
+body{
+    background-color: rgb(6, 2, 48);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.hedder{
+    background-color: rgb(55, 27, 88);
+    border-bottom: solid 5px rgb(199, 181, 255);
+    color: rgb(199, 181, 255);
+    padding-left: 120px;
+    margin-left: -40px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin-top: -20px;
+    margin-right: -50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 80px;
+}
+
+.logo{
+    position: fixed;
+    z-index: 2;
+    width: 60px;
+    border-radius: 50px;
+    left: 10px;
+}
+
+.discord{
+    position: absolute;
+    width: 60px;
+    z-index: 1;
+    border-radius: 40px;
+    right: 130px;
+    top: 1px;
+}
+
+.join{
+    position: fixed;
+    right: 60px;
+    top: 2%;
+    border: none;
+    padding: 15px;
+    padding-left: 45px;
+    border-radius: 25px;
+    background-color: rgb(115, 138, 219);
+    color: aliceblue;
+}
+
+.discord{
+    position: fixed;
+    right:20px;
+    top: 1%;
+    border: none;
+    width: 60px;
+
+    transition: 300ms;
+}
+
+.discord:hover{
+    transform: translateY(-5px);
+}
+
+.serverInfo{
+    position: absolute;
+    top: 630px;
+    background: linear-gradient(90deg, #270D73 0%, #270D73 29%, #060230 74%);    margin-left: 5%;
+    color: aliceblue;
+    width: 90%;
+    padding: 30px;
+    border-radius: 25px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.line{
+    display: flex;
+}
+
+strong{
+    font-size: larger;
+}
+
+.members{
+    position: absolute;
+    top: 1350px;
+background: linear-gradient(90deg, #060230 25%, #270D73 80%, #270D73 100%);
+    width: 90%;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: right;
+    color: aliceblue;
+}
+
+.inviteImg{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    border-radius: 25px;
+}
+
+.textInInvite{
+
+    color: aliceblue;
+    margin-left: 50%;
+    margin-top: 120px;
+    text-align: center;
+   
+}
+
+.INV{
+    padding: 15px;
+    border-radius: 25px;
+    color: aliceblue;
+    background-color: rgb(115, 138, 219);
+    border: solid 3px black;
+    margin-top: 50px;
+    
+    transition-duration: 300ms;
+}
+
+.INV:hover{
+    transform: translateY(-5px);
+    border: solid 3px rgb(199, 181, 255);
+}
+
+.invite{
+    background-color: #270D73;
+    border-radius: 25px;
+    position: absolute;
+    top: 150px;
+    border: 1px solid rgb(6, 2, 48);
+    width: 600px;
+    margin-left: 30%;
+    height: 400px;
+}
+
+.BTM{
+    position: absolute;
+    top: 1400px;
+    left: -20px;
+    right: -20px;
+    padding-left: 50px;
+    background-color: #270D73;
+    width: 98%;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.saske{
+    width: 50px;
+    transition-duration: 300ms;
+    padding: 5px;
+}
+
+.saske:hover{
+    transform: translateY(-10px);
+      
+}
